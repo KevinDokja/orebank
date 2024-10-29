@@ -11,7 +11,7 @@ To set this web application, make sure PHP and PHPMyAdmin is installed on your s
 
 2. Once this is done, go to the url of your website and it should be up and running.
 
-Client site on : http://localhost/ore/site/dist/
+Client site on : http://localhost/orebank/site/dist/
 
 nom utilisateur : Bigii
 <br>
