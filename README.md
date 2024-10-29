@@ -14,12 +14,14 @@ To set this web application, make sure PHP and PHPMyAdmin is installed on your s
 Client site on : http://localhost/ore/site/dist/
 
 nom utilisateur : Bigii
+<br>
 mot de passe : 2003
 
 
 Admin site on : http://localhost/online-banking/admin/dist/
 
 Admin ID : 1000502004
+<br>
 mot de passe : Password1
 
 
