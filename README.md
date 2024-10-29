@@ -18,11 +18,11 @@ nom utilisateur : Bigii
 mot de passe : 2003
 
 
-Admin site on : http://localhost/online-banking/admin/dist/
+Admin site on : http://localhost/orebank/admin/dist/
 
 Admin ID : 1000502004
 <br>
 mot de passe : Password1
 
 
-- Make sure this project in 'online-banking' named directory for direct access from this urls.
+- Make sure this project in 'orebank' named directory for direct access from this urls.
