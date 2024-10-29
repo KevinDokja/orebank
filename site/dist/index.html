@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>OREBANK | La banque à portée de main</title>
+
+    <script defer src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href=""><img
+          src="assets/images/orebank-dark.png"
+          alt="Orebank logo"
+          class="nav__logo"
+          id="logo"
+          designer="Kevin"
+          data-version-number="3.0"
+        /></a>
+        <ul class="nav__links" >
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Fonctionnalités</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Opérations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Témoignages</a>
+          </li>
+        
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn" href="auth_login.php">Se connecter</a>
+          </li>
+          <!-- <li class="nav__item">
+              <a class="nav__link nav__link--btn" href="auth_register.php">Créer un compte</a>
+          </li> -->
+        </ul>
+        
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          La
+          <!-- Green highlight effect -->
+          <span class="highlight">banque</span>
+          à portée<br />
+          <span class="highlight">de main</span>
+        </h1>
+        <h4>Une expérience bancaire plus simple pour une vie plus simple</h4>
+        <button class="btn--text btn--scroll-to">Voir plus &DownArrow;</button>
+        <img
+          src="assets/images/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Fonctionnalités</h2>
+        <h3 class="section__header">
+          Tous ceux dont vous avez besoins dans une banque moderne et plus encore.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="assets/images/digital-lazy-orebank.png"
+          data-src="assets/images/digital-orebank.png"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="assets/images/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Une banque digitale</h5>
+          <p>
+            Notre banque offre une expérience digitale, 
+            vous permettant d'accéder à vos finances à tout moment, 
+            où que vous soyez.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="assets/images/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Observez votre argent croître</h5>
+          <p>
+            Observez votre argent croître grâce à nos solutions 
+            d'investissement simples et efficaces.
+          </p>
+        </div>
+        <img
+          src="assets/images/grow-lazy.jpg"
+          data-src="assets/images/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="assets/images/card-lazy.jpg"
+          data-src="assets/images/card-bank.png"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="assets/images/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Carte de débit gratuite incluse</h5>
+          <p>
+            Votre carte de débit est incluse gratuitement avec votre compte, 
+            vous offrant une liberté financière sans frais cachés.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Tout est aussi simple que possible, 
+          mais pas plus simple.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Transfert instantané
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Prêt instantané
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Fermeture instantanée
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="assets/images/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfert instantané d'argent vers n'importe qui, instantanément ! Pas de frais, pas de blabla.
+          </h5>
+          <p>
+            Avec nos transferts instantanés, 
+            vous pouvez envoyer de l'argent 
+            à vos proches en un clin d'œil, 
+            sans frais ni délai.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="assets/images/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Achetez une maison ou réalisez vos rêves, 
+            avec des prêts instantanés.
+          </h5>
+          <p>
+            Réalisez vos projets immobiliers sans 
+            tracas grâce à nos prêts instantanés, offrant
+             des taux compétitifs et des conditions flexibles.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="assets/images/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Vous n'avez plus besoin de votre compte ? 
+            Aucun problème ! Fermez-le instantanément.
+          </h5>
+          <p>
+            Fermez votre compte en toute simplicité 
+            et instantanément lorsque vous n'en avez plus besoin, 
+            sans paperasse ni complications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Vous n'êtes pas sûr?</h2>
+        <h3 class="section__header">
+          Des millions d'Orebankists rendent déjà leur vie plus simple.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Meilleure décision financière jamais prise !</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="assets/images/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              La dernière étape pour devenir un minimaliste complet
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="assets/images/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Enfin libéré des banques traditionnelles
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="assets/images/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Le meilleur jour pour rejoindre Orebank était 
+          il y a un an. Le deuxième meilleur est aujourd'hui !
+        </h3>
+      </div>
+      <a href="auth_register.php"><button class="btn">Créez votre compte dès aujourd'hui !</button></a>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">A propos</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Prix</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Termes & Utilisations</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Politique & Confidentialité</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Carières</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contacts</a>
+        </li>
+      </ul>
+      <img src="assets/images/favicon.ico" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/capybara2510"
+          >Kevin ANDRIAMPARANY</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
